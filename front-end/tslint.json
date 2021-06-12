@@ -1,0 +1,12 @@
+ 
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended"],
+    "jsRules": {},
+    "rules": {
+      "no-unused-variable": true,
+      "react/jsx-uses-react":true,
+      "react/jsx-uses-vars":true
+    },
+    "rulesDirectory": []
+  }

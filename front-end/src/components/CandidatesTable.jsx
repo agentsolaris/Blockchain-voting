@@ -107,7 +107,7 @@ export default function CandidatesTable(props) {
               <TableCell align="center">{candidate}</TableCell>
               <TableCell align="right">
       
-                {props.isAllowed ? !props.electionEnded 
+                {props.isAllowed || props.electionEnded ? !props.electionEnded 
                 ?props.electionStarted ? <Button variant="contained" color="primary" onClick={handleClickOpen(index+1, candidate)}> 
                     VOTE
                 </Button>:
